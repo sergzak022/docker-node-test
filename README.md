@@ -1,4 +1,4 @@
-##Node app with a docker file
+## Node app with a docker file
 
 # build an image with a name from a path
 `docker build -t name-of-the-container .`
@@ -10,4 +10,4 @@
 `docker save image-name > image-name.tar`
 
 # load image from the tar file
-`#docker load -i image-name.tar`
+`docker load -i image-name.tar`
